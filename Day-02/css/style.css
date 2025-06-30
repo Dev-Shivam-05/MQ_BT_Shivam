@@ -1,0 +1,163 @@
+:root
+{
+    --theme-green: #5ea51d;
+    --theme-text: #66666B;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body
+{
+    background-color: #F7F7F7;
+    font-family: 'Nunito';
+}
+.container
+{
+    max-width: 1320px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+img
+{
+    width: 100%;
+    display: block;
+}
+
+a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+}
+.d-flex
+{
+    display: flex;
+}
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col-3
+{
+    width: 25%;
+    padding: 15px;
+}
+.col-4
+{
+    width: 33.33%;
+    padding: 15px;
+}
+.col-6
+{
+    width: 50%;
+    padding: 15px;
+}
+.col-12
+{
+    width: 100%;
+    padding: 15px;
+}
+.justify-content-center
+{
+    justify-content: center;
+}
+.justify-content-between
+{
+    justify-content: space-between;
+}
+.align-items-center
+{
+    align-items: center;
+}
+.align-content-center
+{
+    align-content: center;
+}
+.text-align-center
+{
+    text-align: center;
+}
+
+/* Header Section Start */
+header
+{
+    padding: 60px 0;
+}
+
+header h2
+{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: var(--theme-green);
+}
+header h4
+{
+    font-size: 42px;
+    font-weight: bold;
+}
+/* Header Section End */
+
+/* Hero's Section Starts */
+.box
+{
+    height: 500px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+}
+.box-header h6
+{
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--theme-green);
+    color: #F7F7F7;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    translate: 20px;
+}
+.box-content
+{
+    padding: 20px;
+    align-items: center;
+}
+.box-content span
+{   
+    color: var(--theme-text);
+    font-size: 14px;
+    font-weight: 600;
+}
+.box-content .profile
+{
+    width: 34px;
+    border-radius: 50%;
+}
+.box-content .name
+{
+    position: absolute;
+    bottom: 50%;
+    translate: 45px -10px;
+}
+.box-content .time 
+{
+    position: absolute;
+    right: 5%;
+    translate: 0 -24px;
+}
+
+.box-content h3
+{
+    position: absolute;
+    font-weight: 600;
+    top: 50%;
+    translate: 0 30px;
+}
+/* Hero's Section Ends */
