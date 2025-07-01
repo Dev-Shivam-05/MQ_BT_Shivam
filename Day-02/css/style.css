@@ -2,6 +2,7 @@
 {
     --theme-green: #5ea51d;
     --theme-text: #66666B;
+    --theme-white: #f7f7f7;
 }
 *
 {
@@ -107,7 +108,7 @@ header h4
 /* Hero's Section Starts */
 .box
 {
-    height: 500px;
+    height: 400px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
 }
@@ -120,11 +121,11 @@ header h4
     background-color: var(--theme-green);
     color: #F7F7F7;
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 0;
     translate: 20px;
 }
-.box-content
+/* .box-content
 {
     padding: 20px;
     align-items: center;
@@ -159,5 +160,78 @@ header h4
     font-weight: 600;
     top: 50%;
     translate: 0 30px;
+} */
+
+.box-content
+{
+    padding: 20px;
+    position: relative;
+}
+.box-content .profile
+{
+    width: 36px;
+    border-radius: 50%;
+}
+.box-profile
+{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.box-profile span
+{
+    margin-left: 10px;
+    color: var(--theme-text);
+}
+.box-profile .time 
+{
+    margin-left: 80px;
+}
+.box-others-content
+{
+    margin-top: 30px;
+}
+.box-others-content h3
+{
+    letter-spacing: 2px;
+}
+.box-others-content .location
+{
+    font-size: 13px;
+}
+.box-others-content .location::before
+{
+    content: '🌏';
+    margin-right: 5px;
+}
+.box-others-content .location::after
+{
+    content: 'Sale';
+    padding: 0 3px;
+    color: var(--theme-white);
+    margin-left: 10px;
+    background-color: var(--theme-green);
+}
+
+.box-info
+{
+    margin-top: 30px;
+    color: var(--theme-text);
+}
+.box-info .box-bed::before
+{
+    content: '🛌';
+    margin-right: 5px;
+}
+.box-info .box-bathtub::before
+{
+    content: '🛁';
+    margin-right: 5px;
+}
+.box-info .box-area::before
+{
+    content: '🔲';
+    margin-right: 5px;
 }
 /* Hero's Section Ends */
