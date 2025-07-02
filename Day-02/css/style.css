@@ -1,8 +1,9 @@
 :root
 {
     --theme-green: #5ea51d;
-    --theme-text: #66666B;
+    --theme-text: #777779;
     --theme-white: #f7f7f7;
+    --theme-red: #e00909;
 }
 *
 {
@@ -27,13 +28,13 @@ img
     width: 100%;
     display: block;
 }
-
 a
 {
     display: inline-block;
     text-decoration: none;
     color: inherit;
 }
+
 .d-flex
 {
     display: flex;
@@ -44,7 +45,7 @@ a
     flex-wrap: wrap;
     justify-content: center;
 }
-.col-3
+.col
 {
     width: 25%;
     padding: 15px;
@@ -112,6 +113,20 @@ header h4
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
 }
+
+.box-2-header del
+{
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--theme-green);
+    color: var(--theme-text);
+    position: absolute;
+    top: 35%;
+    left: 0;
+    translate: 20px;
+}
 .box-header h6
 {
     padding: 3px 7px;
@@ -123,6 +138,19 @@ header h4
     position: absolute;
     top: 35%;
     left: 0;
+    translate: 20px;
+}
+.box-2-header h6
+{
+    padding: 3px 7px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: var(--theme-green);
+    color: #F7F7F7;
+    position: absolute;
+    top: 35%;
+    left: 30%;
     translate: 20px;
 }
 /* .box-content
@@ -188,21 +216,31 @@ header h4
 {
     margin-left: 80px;
 }
-.box-others-content
+.box-others-content,
+.box-2-others-content,
+.box-4-others-content
 {
     margin-top: 30px;
 }
-.box-others-content h3
+.box-others-content h3,
+.box-2-others-content h3
 {
     letter-spacing: 2px;
 }
-.box-others-content .location
+.box-others-content .location,
+.box-2-others-content .location,
+.box-4-others-content .location
 {
     font-size: 13px;
 }
-.box-others-content .location::before
+.fa-solid
 {
-    content: '🌏';
+    color: var(--theme-text);
+}
+.box-others-content .location::before,
+.box-2-others-content .location::before,
+.box-4-others-content .location::before
+{
     margin-right: 5px;
 }
 .box-others-content .location::after
@@ -221,12 +259,12 @@ header h4
 }
 .box-info .box-bed::before
 {
-    content: '🛌';
+    content: '';
     margin-right: 5px;
 }
 .box-info .box-bathtub::before
 {
-    content: '🛁';
+    content: '';
     margin-right: 5px;
 }
 .box-info .box-area::before
@@ -234,4 +272,17 @@ header h4
     content: '🔲';
     margin-right: 5px;
 }
+
+/* Box 2 Starts */
+.box-2-others-content .location::after,
+.box-4-others-content .location::after
+{
+    content: 'Rent';
+    padding: 0 3px;
+    color: var(--theme-white);
+    margin-left: 10px;
+    background-color: var(--theme-red);
+}
+/* Box 2 Ends */
+
 /* Hero's Section Ends */
