@@ -7,31 +7,7 @@
     <link rel="stylesheet" href="./css/style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
-        html,
-        body {
-            position: relative;
-            height: 100%;
-        }
-        .swiper {
-            width: 100%;
-            height: 100%;
-        }
-
-        .swiper-slide {
-            text-align: center;
-            font-size: 18px;
-            background: #444;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .swiper-slide img {
-            display: block;
-            width: 100%;
-            height: 350px;
-            object-fit: cover;
-        }
+        
   </style>
 </head>
 <body>
@@ -62,8 +38,11 @@
                 </nav>
             </div>
         </div>
-        
-    <div class="swiper mySwiper">
+    </section>
+
+    <!-- Heros Section Starts -->
+    <section class="hero">
+        <div class="swiper mySwiper">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="./assets/images/blog-image-1.jpg" alt="blog-image-1">
@@ -84,18 +63,26 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-        
+    </section>
+    <!-- Heros Section End -->    
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
         var swiper = new Swiper(".mySwiper", {
-        
+        slidesPerView: 3,
+        cssMode: true,
+        loop: true,
         navigation: {
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
         },
+        mousewheel: true,
+        Keyboard: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         });
     </script>
-
-    </section>
 </body>
 </html>
