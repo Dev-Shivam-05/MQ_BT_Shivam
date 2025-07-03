@@ -1,121 +1,131 @@
-:root
-{
+:root {
     --theme-green: #5ea51d;
     --theme-text: #777779;
     --theme-white: #f7f7f7;
     --theme-red: #e00909;
+    --theme-black: #0b0202;
 }
-*
-{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html body
-{
+
+html body {
     background-color: #F7F7F7;
     font-family: 'Nunito';
 }
-.container
-{
+
+.container {
     max-width: 1320px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-img
-{
+img {
     width: 100%;
     display: block;
 }
-a
-{
+
+a {
     display: inline-block;
     text-decoration: none;
     color: inherit;
 }
 
-.d-flex
-{
+.d-flex {
     display: flex;
 }
-.row
-{
+
+.row {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-.col
-{
+
+.col {
     width: 25%;
     padding: 15px;
 }
-.col-4
-{
+
+.col-4 {
     width: 33.33%;
     padding: 15px;
 }
-.col-6
-{
+
+.col-6 {
     width: 50%;
     padding: 15px;
 }
-.col-12
-{
+
+.col-12 {
     width: 100%;
     padding: 15px;
 }
-.justify-content-center
-{
+
+.justify-content-center {
     justify-content: center;
 }
-.justify-content-between
-{
+
+.justify-content-between {
     justify-content: space-between;
 }
-.align-items-center
-{
+
+.align-items-center {
     align-items: center;
 }
-.align-content-center
-{
+
+.align-content-center {
     align-content: center;
 }
-.text-align-center
-{
+
+.text-align-center {
     text-align: center;
 }
 
 /* Header Section Start */
-header
-{
+header {
     padding: 60px 0;
 }
 
-header h2
-{
+header h2 {
     font-size: 13px;
     font-weight: bold;
     text-transform: uppercase;
     color: var(--theme-green);
 }
-header h4
-{
+
+header h4 {
     font-size: 42px;
     font-weight: bold;
 }
+
 /* Header Section End */
 
 /* Hero's Section Starts */
-.box
-{
+.box {
     height: 400px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
 }
 
-.box-2-header del
-{
+.box-header,
+.box-2-header {
+    opacity: .7;
+    background-color: var(--theme-black);
+    transition: all 0.3s ease-in;
+    z-index: -1;
+}
+
+.box-header:hover,
+.box-2-header:hover {
+    opacity: 1;
+    z-index: 1;
+    background-color: var(--theme-black);
+}
+
+.box-2-header del {
     padding: 3px 7px;
     border-radius: 4px;
     font-size: 16px;
@@ -127,8 +137,8 @@ header h4
     left: 0;
     translate: 20px;
 }
-.box-header h6
-{
+
+.box-header h6 {
     padding: 3px 7px;
     border-radius: 4px;
     font-size: 16px;
@@ -140,8 +150,8 @@ header h4
     left: 0;
     translate: 20px;
 }
-.box-2-header h6
-{
+
+.box-2-header h6 {
     padding: 3px 7px;
     border-radius: 4px;
     font-size: 16px;
@@ -153,6 +163,7 @@ header h4
     left: 30%;
     translate: 20px;
 }
+
 /* .box-content
 {
     padding: 20px;
@@ -190,61 +201,60 @@ header h4
     translate: 0 30px;
 } */
 
-.box-content
-{
+.box-content {
     padding: 20px;
     position: relative;
 }
-.box-content .profile
-{
+
+.box-content .profile {
     width: 36px;
     border-radius: 50%;
 }
-.box-profile
-{
+
+.box-profile {
     display: flex;
     align-items: center;
     font-size: 12px;
     font-weight: bold;
 }
-.box-profile span
-{
+
+.box-profile span {
     margin-left: 10px;
     color: var(--theme-text);
 }
-.box-profile .time 
-{
+
+.box-profile .time {
     margin-left: 80px;
 }
+
 .box-others-content,
 .box-2-others-content,
-.box-4-others-content
-{
+.box-4-others-content {
     margin-top: 30px;
 }
+
 .box-others-content h3,
-.box-2-others-content h3
-{
+.box-2-others-content h3 {
     letter-spacing: 2px;
 }
+
 .box-others-content .location,
 .box-2-others-content .location,
-.box-4-others-content .location
-{
+.box-4-others-content .location {
     font-size: 13px;
 }
-.fa-solid
-{
+
+.fa-solid {
     color: var(--theme-text);
 }
+
 .box-others-content .location::before,
 .box-2-others-content .location::before,
-.box-4-others-content .location::before
-{
+.box-4-others-content .location::before {
     margin-right: 5px;
 }
-.box-others-content .location::after
-{
+
+.box-others-content .location::after {
     content: 'Sale';
     padding: 0 3px;
     color: var(--theme-white);
@@ -252,37 +262,99 @@ header h4
     background-color: var(--theme-green);
 }
 
-.box-info
-{
+.box-info {
     margin-top: 30px;
     color: var(--theme-text);
 }
-.box-info .box-bed::before
-{
-    content: '';
-    margin-right: 5px;
+
+.box-info ul {
+    display: flex;
+    list-style: none;
 }
-.box-info .box-bathtub::before
-{
-    content: '';
-    margin-right: 5px;
+
+.box-info ul li {
+    display: flex;
+    list-style: none;
+    align-items: self-start;
+    margin: 0 5px;
 }
-.box-info .box-area::before
-{
-    content: '🔲';
+
+.box-info ul li span {
+    margin: 0 4px;
+}
+
+.box-info ul li .box-bed {
+    margin-right: 2px;
+}
+
+.box-info .fa-bed-frontbed::before {
+    content: '';
     margin-right: 5px;
 }
 
+.box-info .box-bathtub::before {
+    content: '';
+    margin-right: 5px;
+}
+
+.box-info .box-area::before {
+    content: '';
+    margin-right: 5px;
+}
+
+.icons-bed,
+.icons-bathtub {
+    display: inline-block;
+    width: 20px;
+    /* margin-top: 5px; */
+    height: 20px;
+    color: var(--theme-text);
+}
+
+.icons-area {
+    display: inline-block;
+    width: 18px;
+    /* margin-top: 5px; */
+    height: 18px;
+    color: var(--theme-text);
+}
+
+/* .box-info
+{
+    display: flex;
+    align-items: baseline; */
+/* } */
 /* Box 2 Starts */
 .box-2-others-content .location::after,
-.box-4-others-content .location::after
-{
+.box-4-others-content .location::after {
     content: 'Rent';
     padding: 0 3px;
     color: var(--theme-white);
     margin-left: 10px;
     background-color: var(--theme-red);
 }
+
 /* Box 2 Ends */
+
+/* Icons Starts */
+.fa-location-dot {
+    font-size: 13px;
+    color: var(--theme-green);
+}
+
+.fa-bed-front,
+.fa-bath {
+    font-size: 13px;
+}
+
+.box-info span {
+    margin-bottom: 5px;
+}
+
+/* Icons Ends */
+
+/* Box Hover effects Starts */
+.box
+/* Box Hover effects End */
 
 /* Hero's Section Ends */
