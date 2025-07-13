@@ -1,0 +1,213 @@
+:root
+{
+    --theme-black: #000000;
+    --theme-white: #ffffff;
+    --theme-grey: #808080;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html body
+{
+    font-family: "Times New Roman", Georgia, Serif;
+}
+a
+{
+    text-decoration: none;
+}
+img
+{
+    display: block;
+    width: 100%;
+}
+ul li
+{
+    list-style: none;
+}
+
+/*===== Rows And Columns Section Starts =====*/
+.row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-3
+{
+    width: 25%;
+    padding: 15px;
+}
+.col-4
+{
+    width: 33.33%;
+    padding: 15px;
+}
+.col-6
+{
+    width: 50%;
+    padding: 15px;
+}
+.col-12
+{
+    width: 100%;
+    padding: 15px;
+}
+/*===== Rows And Columns Section Ends =====*/
+
+/*===== Classes And Id's Section Starts =====*/
+
+/*===== Header Section Starts =====*/
+header 
+{
+    padding: 2rem;
+    position: sticky;
+}
+header .navbar
+{
+    display: flex;
+    justify-content: space-between;
+}
+header .navbar .logo
+{
+    font-size: 24px;
+    font-weight: 300;
+    transition: all .6s ease;
+}
+header .navbar .logo:hover
+{
+    letter-spacing: 5px;
+}
+header .navbar .navlinks
+{
+    display: flex;
+}
+header .navbar .navlinks li a
+{
+    padding: .5rem 1rem;
+    margin: 0 10px;
+    color: var(--theme-black);
+    position: relative;
+    transition: all .6s ease-out;
+}
+/* header .navbar .navlinks li a:hover
+{
+    background-color: var(--theme-grey);
+    border-radius: 5px;
+    color: var(--theme-white);
+} */
+header .navbar .navlinks li a::before
+{
+    display: none;
+    content: '';
+    height: 2px;
+    width: 20%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: var(--theme-grey);
+}
+header .navbar .navlinks li a:hover::before
+{
+    display: block;
+}
+/*===== Header Section Ends =====*/
+
+/*===== Heros's Section Starts =====*/
+.hero
+{
+    height: 100vh;
+    background-image: url(../image/hero-bg-image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: flex-end;
+}
+.hero .content h1
+{
+    color: var(--theme-grey);
+    font-size: 38px;
+    margin: 0 0 30px 30px;
+    letter-spacing: 5px;
+    font-weight: 400;
+}
+/*===== Heros's Section Ends =====*/
+
+/*===== About Section Starst =====*/
+.about 
+{
+    padding: 100px 0;
+    font-weight: 300;
+    text-align: center;
+}
+.about .col-6 .about-main-content h2
+{
+    font-size: 38px;
+    letter-spacing: 5px;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+.about .col-6 .about-main-content h5
+{
+    letter-spacing: 5px;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+.about .col-6 .about-main-content p
+{
+    text-align: left;
+    line-height: 1.5;
+    padding: 0 40px;
+}
+.about .col-6 .about-main-content p:first-child
+{
+    /* font-size: 18px; */
+    /* font-weight: normal; */
+    margin-bottom: 30px;
+}
+.about .col-6 .about-main-content p span
+{
+    padding: 5px;
+    border-radius: 2px;
+    color: var(--theme-black);
+    background-color: var(--theme-grey);
+}
+.about .col-6 .about-main-content p:last-child
+{
+    margin-top: 30px;
+    word-break: break-all;
+    color: var(--theme-grey);
+}
+/*===== About Section Ends =====*/
+
+/*===== Menu Section Starts =====*/
+.menu .menu-heading h2
+{
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+.menu .menu-main-content
+{
+    text-align-last: left;
+}
+.menu .menu-main-content .menu-list li 
+{
+    margin: 50px 0;
+}
+.menu .menu-main-content .menu-list li h4
+{
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.menu .menu-main-content .menu-list li p
+{
+    font-weight: 300;
+    color: var(--theme-grey);
+}
+/*===== Menu Section Ends =====*/
+/*===== Classes And Id's Section Ends =====*/
