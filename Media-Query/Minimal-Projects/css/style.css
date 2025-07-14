@@ -3,6 +3,8 @@
     --theme-black: #000000;
     --theme-white: #ffffff;
     --theme-grey: #808080;
+    --theme-green: #008000;
+    --theme-hover-grey: #a3a1a1;
 }
 *
 {
@@ -13,6 +15,12 @@
 html body
 {
     font-family: "Times New Roman", Georgia, Serif;
+}
+.container
+{
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 a
 {
@@ -210,4 +218,98 @@ header .navbar .navlinks li a:hover::before
     color: var(--theme-grey);
 }
 /*===== Menu Section Ends =====*/
+
+/*===== Contact Section Starts =====*/
+.contact 
+{
+    padding: 50px 0;
+}
+.contact .contact-heading h2
+{
+    font-size: 36px;
+    font-weight: 300px;
+    margin: 40px 0;
+}
+.contact .contact-heading p
+{
+    font-size: 15px;
+    font-weight: 500;
+    margin: 15px 0;
+    line-height: 20px;
+}
+.contact .contact-heading h4
+{
+    color: var(--theme-grey);
+    font-size: 18px;
+    font-weight: 600;
+    margin: 15px 0;
+
+}
+.contact .contact-body form
+{
+    display: flex;
+    flex-direction: column;    
+}
+.contact .contact-body form #names,
+.contact .contact-body form #date,
+.contact .contact-body form #people-counter
+{
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid var(--theme-grey);
+    margin: 10px 0;
+}
+.contact .contact-body form #message
+{
+    padding: 15px;
+    border: 2px solid var(--theme-grey);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.contact .contact-body form .btn 
+{
+    height: 50px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    border: none;
+    /* border-radius: 5px; */
+    padding: 8px;
+    margin: 15px 0;
+    background-color: var(--theme-grey);
+    transition: all .4s ease;
+}
+.contact .contact-body form .btn:hover
+{
+    background-color: var(--theme-hover-grey);
+    color: var(--theme-white);
+}
+/*===== Contact Section Ends =====*/
+
+/*===== Footer Starts =====*/
+footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: var(--theme-grey);
+    padding: 40px;
+}
+footer .footer-main-content h5
+{
+    font-size: 18px;
+    font-weight: 300;
+}   
+footer .footer-main-content h5 a
+{
+    color: var(--theme-black);
+    text-decoration: underline;
+    transition: all .4s ease;
+}
+footer .footer-main-content h5 a:hover
+{
+    color: var(--theme-green);
+}
+/*===== Footer Ends =====*/
 /*===== Classes And Id's Section Ends =====*/
