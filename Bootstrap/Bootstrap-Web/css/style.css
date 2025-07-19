@@ -1,0 +1,54 @@
+:root
+{
+    --theme-text: #011e2c;
+    --theme-light-text: #2086b8;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-dark-blue
+{
+    background-color: var(--theme-text);
+}
+.text-dark-blue
+{
+    color: var(--theme-text);
+}
+.text-light-blue
+{
+    color: var(--theme-light-text);
+}
+
+.hero .hero-side-img:hover
+{
+    position: relative;
+    transform: perspective(1000px) rotateY(-5deg);
+    transition: all .3s ease-out;
+}
+.hero .hero-side-img:hover
+{
+    transform: perspective(1000px) rotateY(0deg);
+}
+.badge
+{
+    position: absolute;
+    right: 50px;
+    transform: translate(-20%,-50%);
+    padding: 24px;
+}
+.divider
+{
+    height: 100px;
+}
+.btn
+{
+    transition: all .2s ease-in;
+}
+.btn:hover
+{
+    transform: translateY(-3px);
+}
