@@ -1,2 +1,180 @@
 Reference Link :-
 https://bootstrapmade.com/demo/College/
+
+
+<div class="navbar d-flex justify-content-between align-items-center">
+                <a href="" class="text-decoration-none logo p-3 bg-dark-blue text-white">
+                    College
+                </a>
+                <nav>
+                    <ul class="navlinks list-unstyled list-inline">
+                        <li class="list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue">
+                                Home
+                            </a>
+                        </li>
+                        <li class="dropdown list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue">
+                                About
+                            </a>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <ul class="sub-dropdown list-unstyled bg-white">
+                                <li class="p-3">
+                                    <a href="" class="text-decoration-none text-dark">
+                                        About us
+                                    </a>
+                                </li>
+                                <li class="p-3">
+                                    <a href="" class="text-decoration-none text-dark">
+                                        Admission
+                                    </a>
+                                </li>
+                                <li class="p-3">
+                                    <a href="" class="text-decoration-none text-dark">
+                                        Acedamics
+                                    </a>
+                                </li>
+                                <li class="p-3">
+                                    <a href="" class="text-decoration-none text-dark">
+                                        Faculty & Staff
+                                    </a>
+                                </li>
+                                <li class="p-3">
+                                    <a href="" class="text-decoration-none text-dark">
+                                        Campus & Facelities
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue">
+                                Student Life
+                            </a>
+                        </li>
+                        <li class="list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue">
+                                News
+                            </a>
+                        </li>
+                        <li class="list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue">
+                                Events
+                            </a>
+                        </li>
+                        <li class="list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue">
+                                Alumini
+                            </a>
+                        </li>
+                        <li class="dropdown-2 list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue bg-white">
+                                More Pages
+                            </a>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <ul class="dropdown-2-sub-dropdown list-unstyled">
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        News Details
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Events Details
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Privacy
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Terms & Condition
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Error 404
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Starter Page
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="dropdown-3 list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue bg-white">
+                                Dropdown
+                            </a>
+                            <i class="fa-solid fa-caret-down"></i>
+                            <ul class="dropdown-3-sub-dropdown list-unstyled">
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Dropdown 1
+                                    </a>
+                                </li>
+                                <li class="deepdropdown p-3">
+                                    <a href="" class="text-decoration-none text-dark bg-white">
+                                        Deep Dropdown
+                                    </a>
+                                    <i class="fa-solid fa-caret-down"></i>
+                                    <ul class="dropdown-3-sub-dropdown-2 list-unstyled">
+                                        <li class="p-3 bg-white">
+                                            <a href="" class="text-decoration-none text-dark fs-6">
+                                                Deep Dropdown 1
+                                            </a>
+                                        </li>
+                                        <li class="p-3 bg-white">
+                                            <a href="" class="text-decoration-none text-dark fs-6">
+                                                Deep Dropdown 2
+                                            </a>
+                                        </li>
+                                        <li class="p-3 bg-white">
+                                            <a href="" class="text-decoration-none text-dark fs-6">
+                                                Deep Dropdown 3
+                                            </a>
+                                        </li>
+                                        <li class="p-3 bg-white">
+                                            <a href="" class="text-decoration-none text-dark fs-6">
+                                                Deep Dropdown 4
+                                            </a>
+                                        </li>
+                                        <li class="p-3 bg-white">
+                                            <a href="" class="text-decoration-none text-dark fs-6">
+                                                Deep Dropdown 5
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Dropdown 2
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Dropdown 3
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Dropdown 4
+                                    </a>
+                                </li>
+                                <li class="p-3 bg-white">
+                                    <a href="" class="text-decoration-none text-dark fs-6">
+                                        Dropdown 5
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="list-inline-item p-3">
+                            <a href="" class="text-decoration-none text-light-blue">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
