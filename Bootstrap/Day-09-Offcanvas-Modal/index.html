@@ -43,6 +43,7 @@
 
         <section class="badges-part my-5">
             <div class="container">
+                <hr>
                 <div class="headings">
                     <h1>Example heading <span class="badge bg-primary text-capitalize">new</span></h1>
                     <h2>Example heading <span class="badge bg-secondary text-capitalize">new</span></h1>
@@ -61,18 +62,160 @@
                     <button type="button" class="py-1 border-0 bg-primary rounded text-white position-relative">Profile <span class="bg-danger rounded-circle text-danger position-absolute top-0 start-100 translate-middle">.......</span></button>
                 </div>
                 <hr>
-                <div class="outline-buttons">
+                
+            </div>
+        </section>
+        
+        <section class="buttons">
+            <div class="buttons">
                     <div class="normal">
                         <h3 class="text-center fs-3">Normal Buttons</h3>
+                        <button type="button" class="btn btn-primary text-capitalize">Primary Button</button>
+                        <button type="button" class="btn btn-secondary text-capitalize">secondary Button</button>
+                        <button type="btton" class="btn btn-danger text-capitalize">danger Button</button>
+                        <button type="button" class="btn btn-info text-capitalize text-white">info Button</button>
+                        <button type="button" class="btn btn-success text-capitalize">success Button</button>
+                        <button type="button" class="btn btn-dark text-capitalize">dark Button</button>
+                        <button type="button" class="btn btn-light text-capitalize text-dark">light Button</button>
+                        <hr>
+                        <h3 class="text-center fs-3">Outline Buttons</h3>
+                        <button type="button" class="btn btn-outline-primary text-capitalize">Primary Button</button>
+                        <button type="button" class="btn btn-outline-secondary text-capitalize">secondary Button</button>
+                        <button type="btton" class="btn btn-outline-danger text-capitalize">danger Button</button>
+                        <button type="button" class="btn btn-outline-info text-capitalize">info Button</button>
+                        <button type="button" class="btn btn-outline-success text-capitalize">success Button</button>
+                        <button type="button" class="btn btn-outline-dark text-capitalize">dark Button</button>
+                        <button type="button" class="btn btn-outline-light text-capitalize text-dark">light Button</button>
                     </div>
                 </div>
+        </section>
+
+        <hr> 
+
+        <section class="modals">
+            <div class="container">
+                <h3 class="text-center">Modals</h3>
+                <button type="button" class="border-0 bg-primary rounded text-white fw-medium" data-bs-toggle="modal" data-bs-target="#Modal-1">Launch Your First Modal</button>
+                <button type="button" class="border-0 bg-danger rounded text-white fw-medium" data-bs-toggle="modal" data-bs-target="#Modal-2">Challenging Modal</button>
+                <button type="button" class="border-0 bg-dark rounded text-white fw-medium" data-bs-toggle="modal" data-bs-target="#Multi-Modal-1">Multi Modals</button>
+            </div>
+        </section>
+
+        <hr> 
+
+        <section class="offcanva">
+            <div class="container">
+                <h3 class="text-center">Offcanvas</h3>
+                <button type="button" class="btn btn-outline-primary" data-bs-toggle="offcanvas" data-bs-target="#Offcanvas-1">Offcanvas-1</button>
+                <button type="button" class="btn btn-outline-dark" data-bs-toggle="offcanvas" data-bs-target="#Offcanvas-2">Offcanvas-2</button>
             </div>
         </section>
     </main>
-    <footer>
-        <!-- place footer here -->
-    </footer>
+    <!-- <footer>
+        <div class="main">
+            <h3 class="p-3 bg-black text-white">Practice By :- <span class="text-light">Shivam</span></h3>
+        </div>
+    </footer> -->
 
+    <!-- Offcanvas-1 Starts -->
+     <div class="offcanvas offcanvas-start" id="Offcanvas-1" tabindex="-1">
+        <div class="offcanvas-header">
+            <h2 class="text-black">OffCanvas-1</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>This Is Your 1st OffCanvas Who's Position Is Default</p>
+        </div>
+     </div>
+    <!-- Offcanvas-1 Ends -->
+
+
+    <!-- Offcanvas-2 Starts -->
+     <div class="offcanvas offcanvas-start text-bg-dark" id="Offcanvas-2" tabindex="-1">
+        <div class="offcanvas-header">
+            <h3>Offcanvas-2</h3>
+            <button type="button" class="btn-close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p>Hello I'm Offcanvas With Backdrop....</p>
+        </div>
+     </div>
+    <!-- Offcanvas-2 Ends -->
+
+    <!-- Modal-1 Starts -->
+    <div class="modal fade" id="Modal-1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Modal 1</h2>
+                    <button type="button" class="border-0 btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Hello User Here Is Your 1st Modal</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="border-0 btn btn-primary rounded" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal-1 Ends -->
+    
+    <!-- Modal-2 Starts -->
+    <div class="modal fade" id="Modal-2" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Modal-2</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>You Can't Close Me By Clicking Outside Or Escape(Esc) Key. Close Me If You Can(WIthout Clicking Close Or "<span class="text-primary">X</span>" Button)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="border-0 btn btn-danger rounded-2" data-bs-dismiss="modal" aria-label="Close">Close</button>
+                </div> 
+            </div>
+        </div>
+    </div>
+    <!-- Modal-2 Ends -->
+
+    <!-- Modal-3 Starts -->
+     <div class="modal fade" id="Multi-Modal-1" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Multi-Modal-1</h2>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This Model Contains Multiple Modal.To Change Modal Click New Modal.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary border-0" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary border-0" data-bs-toggle="modal" data-bs-target="#Multi-Modal-2">Switch Modal(2)</button>
+                </div>
+            </div>
+        </div>
+     </div>
+     <div class="modal fade" id="Multi-Modal-2" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2>Multi-Modal-2</h2>
+                    <button type="button" class="btn-close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>This Is Your Modal 2.To Switch , Click Switch Modal</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary border-0" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary border-0" data-bs-toggle="modal" data-bs-target="#Multi-Modal-1">Switch Modal(1)</button>
+                </div>
+            </div>
+        </div>
+     </div>
+    <!-- Modal-3 Ends -->
     <!-- Bootstrap JavaScript Libraries -->
     <script src="./javascript/bootstrap.bundle.min.js"></script>
 </body>
