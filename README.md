@@ -3,7 +3,7 @@
 Welcome to **MQ · BT · Shivam**, my personal frontend playground where I experiment with **Media Queries** and **Bootstrap** to build responsive, real‑world UIs. Dive in to see live demos, browse the code, and learn how each layout adapts across devices!
 
 ---
-
+ 
 ## 🔍 Contents
 
 - [📱 Media Query Projects](#media-query-projects)  
