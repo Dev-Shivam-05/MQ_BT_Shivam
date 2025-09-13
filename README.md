@@ -11,6 +11,9 @@ Welcome to **MQ · BT · Shivam**, my personal frontend playground where
   - [2. Stand Blog – Min‑Width Layout](https://pr-2-mq-bt-min-width-stand-blog.vercel.app/)
   - [3. Stand Blog – Max‑Width Layout](https://shivam-pr-3-stand-blog-max-width.vercel.app/)  
 - [🅱️ Bootstrap Projects](#bootstrap-projects)  
+  - [1. Snapfolio – Personal Portfolio](#1-snapfolio--personal-portfolio)  
+  - [2. Joy Seno – Portfolio Website](#2-joy-seno--portfolio-website)  
+  - [3. Bootstrap Practical Exam](#3-bootstrap-practical-exam)  
 - [🙋‍♂️ About Me](#about-me)  
 - [⭐ Support & Connect](#support--connect)  
 
@@ -53,10 +56,36 @@ A **centered, max‑width** blog design focusing on readability. On large screen
 
 ## 🅱️ Bootstrap Projects
 
-> 🚧 **Coming Soon** – I’m working on a series of Bootstrap‑powered components and layouts. Stay tuned for:
-> - A responsive navbar with dropdowns  
-> - A multi‑column card grid with Bootstrap utilities  
-> - A mobile‑friendly landing page template  
+### 1. Snapfolio – Personal Portfolio  
+A sleek and modern **portfolio template** built with Bootstrap, featuring a responsive grid, navbar, and smooth scroll sections.  
+- 🔗 **Live Demo:** [Snapfolio Live](https://pr-1-bootstrap-shivam-portfolio-01.vercel.app/)  
+- 📦 **Code:** [GitHub Repo](https://github.com/Dev-Shivam-05/PR-1-Bootstrap-Shivam-Portfolio-01.git)  
+- 📝 **Description:**  
+  - Responsive layout with Bootstrap grid system  
+  - Hero section, About, Portfolio, and Contact  
+  - Ready-to-customize template for personal branding  
+
+---
+
+### 2. Joy Seno – Portfolio Website  
+A clean **personal branding site** made with Bootstrap utilities and components, focused on **simplicity and elegance**.  
+- 🔗 **Live Demo:** [Joy Seno Live](https://pr-2-bootstrap-shivam-portfolio-02.vercel.app/)  
+- 📦 **Code:** [GitHub Repo](https://github.com/Dev-Shivam-05/PR-2-Bootstrap-Shivam-Portfolio-02)  
+- 📝 **Description:**  
+  - Fully responsive with Bootstrap 5 utilities  
+  - Minimal UI for showcasing profile & projects  
+  - Modern typography & subtle color palette  
+
+---
+
+### 3. Bootstrap Practical Exam  
+A **practice project** built during an exam session, showcasing Bootstrap fundamentals in a real-world layout.  
+- 🔗 **Live Demo:** [Practical Exam Live](https://pr-1-bootstrap-shivam-portfolio-01.vercel.app/)  
+- 📦 **Code:** [GitHub Repo](https://github.com/Dev-Shivam-05/Bootstrap-Practical-Exam-Shivam-8514.git)  
+- 📝 **Description:**  
+  - Responsive sections using Bootstrap containers & rows  
+  - Navbar, footer, and card components  
+  - Built under exam conditions to test speed & accuracy  
 
 ---
 
