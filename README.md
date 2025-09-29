@@ -91,10 +91,10 @@ A **practice project** built during an exam session, showcasing Bootstrap fundam
 
 ## 🙋‍♂️ About Me
 
-👋 Hi, I’m **Shivam (aka Shivu)**  
+👋 Hi, I’m **Shivam Bhadoriya(aka Shivu)**  
 - 🎓 B.Sc. IT Student  
-- 💻 Frontend enthusiast mastering **HTML5**, **CSS3**, **Media Queries**, and **Bootstrap**  
-- 🤖 Also exploring **Python**, **C++** & backend APIs  
+- 💻 Frontend enthusiast mastering **HTML5**, **CSS3**, **Media Queries**, **Bootstrap**, and **JavaScript**
+- 🤖 Also exploring **JavaScript**, **Python**, **C++** & backend APIs  
 
 📫 **Email:** [shivambhadoriya1605@gmail.com](mailto:shivambhadoriya1605@gmail.com)  
 🌐 **GitHub:** [Dev‑Shivam‑05](https://github.com/Dev-Shivam-05)  
@@ -105,9 +105,9 @@ A **practice project** built during an exam session, showcasing Bootstrap fundam
 
 If you enjoy these demos or find them useful:  
 - ⭐ **Star** this repo to show your support  
-- 📨 **Follow** my GitHub for more UI experiments  
+- 📨 **Follow** my GitHub for more UI experiment's  
 - 💬 **Share** your feedback or ideas in an issue  
 
-> _“Responsive design isn’t just a technique, it’s a commitment to every user.”_ – Shivu  
+> _“Responsive design isn’t just a technique, it’s a commitment to every user.”_ – Shivam Bhadoriya  
 
 Happy coding! 🚀✨
